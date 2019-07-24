@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="style.css">
+
+    <title>Pig Game</title>
+</head>
+
+<body>
+    <div class="wrapper clearfix">
+        <div class="player-0-panel active">
+            <div class="player-name" id="name-0">Player 1</div>
+            <div class="player-score" id="score-0">43</div>
+            <div class="player-current-box">
+                <div class="player-current-label">Current</div>
+                <div class="player-current-score" id="current-0">11</div>
+            </div>
+        </div>
+
+        <div class="player-1-panel">
+            <div class="player-name" id="name-1">Player 2</div>
+            <div class="player-score" id="score-1">72</div>
+            <div class="player-current-box">
+                <div class="player-current-label">Current</div>
+                <div class="player-current-score" id="current-1">0</div>
+            </div>
+        </div>
+
+        <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
+        <button class="btn-roll"><i class="fas fa-sync"></i>Roll dice</button>
+        <button class="btn-hold"><i class="far fa-hand-paper"></i>Hold</button>
+
+        <img src="img/dice-5.png" alt="Dice" id="dice-1">
+        <img src="img/dice-5.png" alt="Dice" id="dice-2">
+        <form>
+            <label>
+                Setting Winning Score:
+                <input type="text" class="win-input" placeholder="final-score">
+            </label>
+            <!-- <input type="submit" class="win-input"> -->
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
