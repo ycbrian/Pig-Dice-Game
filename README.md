@@ -4,7 +4,7 @@
 -This project is for procticing DOM manipulation.
 
 ---
-##Game Rule
+## Game Rule
 
 1. Set the winning score
 
@@ -15,6 +15,7 @@
 4. While holding points or losing points, your turn will be over.
 
 5. The one who first reaches the setting score wins the game.
+<br/>
 
 
 <p align="center">
