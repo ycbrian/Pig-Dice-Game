@@ -2,7 +2,7 @@
 
 -This is a small dice game which can be played on the website.
 -This project is for procticing DOM manipulation.
-
+<br/>
 
 ## Game Rule
 
