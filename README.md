@@ -3,7 +3,7 @@
 -This is a small dice game which can be played on the website.
 -This project is for procticing DOM manipulation.
 
----
+
 ## Game Rule
 
 1. Set the winning score
@@ -16,7 +16,7 @@
 
 5. The one who first reaches the setting score wins the game.
 <br/>
-
+<br/>
 
 <p align="center">
   <img src="./img/Screen Shot 2019-07-25 at 4.03.01 AM.png" width="75%" alt="preview"/>
